@@ -7,7 +7,7 @@ const Routes = () => (
     <BrowserRouter>
         <Switch>
             <Route path="/" exact component={Main} />
-            <Route path="/:recover-passwd" component={Main} />
+            <Route path="/:passwd" component={Main} />
         </Switch>
     </BrowserRouter>
 );
