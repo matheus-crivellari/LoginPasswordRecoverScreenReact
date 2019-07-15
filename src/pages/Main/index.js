@@ -50,7 +50,7 @@ export default class Main extends Component {
     }
 
     /**
-     * Renders current page
+     * Renders actual page
      */
     render() {
         return (
